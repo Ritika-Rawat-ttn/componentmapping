@@ -33,8 +33,8 @@ class ComponentMappingApplicationTests {
 		em.setAge(21);
 		Salary s = new Salary();
 		s.setBasicsalary(20000);
-		s.setBonussalary(10000);
-		s.setSpecialallowancesalary(50000);
+		//s.setBonussalary(10000);
+		s.setApecialallowancesalary(10000);
 		s.setTaxamount(200);
 		em.setSalary(s);
 		repository.save(em);

@@ -5,9 +5,9 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class Salary {
     private int basicsalary;
-    private int bonussalary;
     private int taxamount;
-    private int specialallowancesalary;
+
+    private int apecialallowancesalary;
 
     public int getBasicsalary() {
         return basicsalary;
@@ -17,13 +17,13 @@ public class Salary {
         this.basicsalary = basicsalary;
     }
 
-    public int getBonussalary() {
-        return bonussalary;
-    }
-
-    public void setBonussalary(int bonussalary) {
-        this.bonussalary = bonussalary;
-    }
+//    public int getBonussalary() {
+//        return bonussalary;
+//    }
+//
+//    public void setBonussalary(int bonussalary) {
+//        this.bonussalary = bonussalary;
+//    }
 
     public int getTaxamount() {
         return taxamount;
@@ -33,12 +33,11 @@ public class Salary {
         this.taxamount = taxamount;
     }
 
-    public int getSpecialallowancesalary() {
-        return specialallowancesalary;
+    public int getApecialallowancesalary() {
+        return apecialallowancesalary;
     }
 
-    public void setSpecialallowancesalary(int specialallowancesalary) {
-        this.specialallowancesalary = specialallowancesalary;
+    public void setApecialallowancesalary(int apecialallowancesalary) {
+        this.apecialallowancesalary = apecialallowancesalary;
     }
-
 }
